@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Boxmodel</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        background-color: aqua;
+      }
+      .box1{
+        color: yellow;
+        padding: 15px;
+        margin: 25px;
+        border: 2px solid blue;
+        height: 200px;
+        box-sizing: border-box;
+      }
+      .box2{
+         color: red;
+         padding: 15px;
+        margin: 25px;
+        border: 2px solid rgb(1, 1, 12);
+        height: 200px;
+        box-sizing: border-box;
+        text-decoration: underline;
+      }
+      h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+      }
+      h2{
+        text-transform: capitalize;
+        text-decoration: underline;
+        text-decoration-color: aquamarine;
+        text-decoration-thickness: 7px;
+        text-indent: 45px;
+        text-overflow: ellipsis;
+      }
+      .lorem{
+        text-overflow: ellipsis;
+        width: 80px;
+        border: 2px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box box1">I am box</div>
+    <div class="box box2">I am another box</div>
+
+    <div>
+        <h1>Fonts</h1>
+        <p>This is video on fonts</p>
+        <h2>About fonts</h2>
+        <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat quidem ratione totam, perspiciatis reprehenderit atque, eius optio quia asperiores quasi et voluptatem architecto fugit. Quidem, corrupti. Debitis, maxime. Fugiat?
+        </p>
+    </div>
+  </body>
+</html>

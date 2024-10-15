@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="post">
+      <h1>FORMS</h1>
+        <div>
+      <label for="userName">userName</label>
+      <input
+        type="text"
+        id="userName"
+        name="userName"
+        placeholder="Enter Name"
+      />
+    </div>
+    <div>
+        <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+    </div>
+    <div>
+        <input type="checkbox" id="check" name="check" value="yes">
+        <label for="check">Subscribe</label>
+    </div>
+    <div>
+        <label for="comment">comment</label>
+        <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+    </div>
+    <div>
+        <select>
+            <option value="apple">apple</option>
+            <option value="Mango">Mango</option>
+            <option value="Orange">Orange</option>
+        </select>
+        
+    </div>
+      
+    </form>
+  </body>
+</html>

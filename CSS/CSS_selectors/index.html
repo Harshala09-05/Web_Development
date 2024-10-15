@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        .box:first-child{
+            background-color: yellow;
+        }
+        .box:first-line{
+           color: blue;
+        }
+        .boxes *{
+            color: red;
+            border: 2px solid pink;
+        }
+        input::placeholder{
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">I am first box</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi corrupti, maiores aut cumque iure autem assumenda. A nostrum harum delectus nemo, quasi magni, odio esse quas dignissimos quod incidunt, voluptatum reprehenderit dolorum in at! Minus maiores atque temporibus odit. Quidem commodi similique, minima nobis delectus perferendis pariatur nisi velit, officia id ab itaque quam sint! Quae a hic facere voluptate vero assumenda provident quis suscipit aliquid, eaque, deserunt nemo sed reiciendis qui consequuntur repellat eius autem fugiat rerum maxime quos sequi dolore. Consectetur nostrum odit impedit laudantium suscipit libero in. Nisi dignissimos suscipit nobis quam similique omnis aspernatur, sapiente, magnam reprehenderit corporis eum exercitationem commodi ducimus rerum illum aliquid minus atque illo doloribus dolorum earum eos? Dignissimos quod animi officia quo veritatis officiis, odit dicta doloribus quos at tempore. Quae, iste error mollitia aperiam odit assumenda, tempore enim necessitatibus, molestias ea similique obcaecati! Laudantium magnam nisi autem totam corporis necessitatibus cupiditate blanditiis esse quis, enim illum nesciunt voluptas, pariatur ab minima quaerat alias cum, provident asperiores consectetur praesentium fuga iusto sint. Assumenda nobis iusto, doloribus totam quaerat sit vel incidunt eligendi ducimus. Accusantium distinctio perspiciatis tenetur? Laudantium, porro nesciunt. Nam doloremque sit vitae laboriosam quod distinctio cumque commodi a omnis.</div>
+        <div class="box">I am first box</div>
+        <input type="text" placeholder="Type your name">
+    </div>
+</body>
+</html>

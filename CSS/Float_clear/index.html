@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS float and clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        img{
+            float: left;
+        }
+        .card{
+            border: 2px solid red;
+        }
+        .card:nth-child(3){
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://media.istockphoto.com/id/2145518317/photo/banner-summer-with-colorful-theme-as-palm-trees-with-water-wave-background.jpg?s=2048x2048&w=is&k=20&c=1cymMmBeu3BGnz8B6ISU_dJGldvmX8bxPPOjLKq6L5I=" alt="img" width="230px">
+        <div class="card">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique aut quis ex illum temporibus rem dolorum, itaque vel ipsam, suscipit magni obcaecati laborum nulla eaque optio possimus voluptatibus natus. Harum!
+            </p>
+        </div>
+        <div class="card">card 2</div>
+        <div class="card">card 3</div>
+    </div>
+</body>
+</html>

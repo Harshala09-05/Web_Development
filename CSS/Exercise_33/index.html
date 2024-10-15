@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi color Nav</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       /* :root{
+            --color:gray;
+            --seccolor:purple;
+            --bodycolor:rgb(119, 103, 103);
+        } */
+        :root{
+            --color:rgb(23, 13, 161);
+            --seccolor:rgb(240, 233, 240);
+            --bodycolor:rgb(20, 149, 196);
+
+        }
+        body{
+            background-color: var(--bodycolor);
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+         background-color: var(--color);
+         font-weight: bold;
+         font-size: large;
+         font-family: ui-monospace;
+        }
+        ul li{
+            list-style: none;
+            padding: 25px;
+          
+        }
+        ul li a{
+            color: var(--seccolor);
+            text-decoration: none;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li><a href="">New York</a></li>
+        <li><a href="">Boston</a></li>
+        <li><a href="">Washington</a></li>
+        <li><a href="">Cambridge</a></li>
+        <li><a href="">California</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

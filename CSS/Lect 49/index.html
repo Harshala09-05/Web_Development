@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS object fit and position</title>
+    <style>
+        .container{
+            height: 488px;
+            width: 466px;
+            border: 2px solid black;
+            background-position: center center;
+            background-image: url("https://cdn.pixabay.com/photo/2024/06/24/04/05/woman-8849047_1280.jpg");
+        }
+        img{
+            width: 466px;
+            height: 488px;
+           /* object-fit: cover;
+            object-position: bottom right;*/
+            object-fit: fill;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<!-- <img src="https://cdn.pixabay.com/photo/2024/06/24/04/05/woman-8849047_1280.jpg" alt="img"> -->
+    </div>
+</body>
+</html>
